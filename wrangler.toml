@@ -1,9 +1,8 @@
-# wrangler.toml
 name = 'test-edgetunnel'
 main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
 
-[[test-edgetunnel]]
-binding = "KV"			#KV绑定名默认不可修改
-id = "d9431c1dd3dc4e94a347ad401f648e34"				#KV数据库id
+[[kv_namespaces]]
+binding = "KV"
+id = "dc650898c40e4256bfa0fd3c008c5998"
